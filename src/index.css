@@ -12,12 +12,15 @@ input,button{
   
 }
 .App{
+  background-color: #53565a;
+
+}
+.home{
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center ;
-  background-color: #53565a;
-
+  
 }
 form{
   display: block;
@@ -47,12 +50,12 @@ form .form-inner h2{
   font-size: 28px;
   font-weight: 500;
   margin-bottom: 30px;
-  }
+}
   form .form-inner .form-group{
    display: block ;
    width: 300px;
    margin-bottom: 15px;
-    }
+  }
   
     .form-inner .form-group label{
       display: block;
@@ -93,13 +96,7 @@ form .form-inner h2{
     form .form-inner input[type = "submit"]:hover,.welcome button:hover{
       background-position: 100% 0%;
     }
-    .welcome{
-      width:100%;
-      max-width: 480px;
-      background-color: #fff;
-      padding: 15px 30px;
-
-    }
+  
     .welcome h2{
       color:  #888;
       font-size: 28px;
@@ -112,3 +109,26 @@ form .form-inner h2{
       font-weight: 700;
 
     }
+.navbar{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .buttons button{
+  /* position: relative;
+  right: 10px; */
+/* display: flex; */
+margin-right: 10px;
+}
+ .content{
+  background-color: #ffffff;
+}
+.attendance{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  /* background-color: #53565a; */
+
+}

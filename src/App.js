@@ -39,7 +39,9 @@ function App() {
       {User.username !== "" ? (
         <Welcome User={User} logout={logout} />
       ) : (
-        <LoginForm login={login} Error={Error} />
+        <div className="home">
+          <LoginForm login={login} Error={Error} />
+        </div>
       )}
     </div>
   );
